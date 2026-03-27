@@ -22,15 +22,10 @@
 
 #tech-row(
   [Cloud & Infrastructure],
-  [AWS (EC2, S3, RDS), Azure App Service, Terraform, Linux (CentOS/RHEL)],
+  [AWS (EC2, S3, RDS), GCP (Cloud Run), Azure, Terraform, Linux (CentOS/RHEL) · AZ-900],
 )
 
 #tech-row(
   [Development],
-  [C\#, .NET (ASP.NET Core/MVC), SQL Server, PostgreSQL, TypeScript, Python, Bash],
-)
-
-#tech-row(
-  [Certification],
-  [Microsoft Azure Fundamentals (AZ-900)],
+  [C\#, .NET (ASP.NET Core/MVC), Python, FastAPI, SQL Server, PostgreSQL, TypeScript, Bash],
 )

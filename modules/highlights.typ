@@ -2,6 +2,6 @@
 
 #cv-section("Highlights", letters: 4)
 
-- 5+ years in software engineering with increasing focus on CI/CD, cloud infrastructure, and production reliability across healthcare, finance, and B2B SaaS environments.
-- Built and maintained CI/CD pipelines (Azure DevOps, GitLab CI), administered self-hosted GitLab on Linux (CentOS and RHEL), and supported production incident response and troubleshooting.
-- Proven ability to improve system performance and reliability under production constraints---optimized critical workflows from minutes to seconds while maintaining system uptime.
+- Brought a startup from PoC to production-ready by designing its cloud infrastructure and CI/CD on GCP with Terraform and OIDC-based deployments, cutting provisioning from 2+ hours to under 10 minutes.
+- Optimized critical production workflows from 3 minutes to 4 seconds across healthcare and finance platforms while maintaining system reliability under live operational constraints.
+- Delivered backend systems from enterprise ERP (.NET, SQL Server) to domain-driven startup platforms (Python, FastAPI, PostgreSQL), with increasing production ownership at each stage.

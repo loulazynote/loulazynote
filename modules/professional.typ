@@ -8,8 +8,9 @@
   date: [Sep. 2024 - Present],
   location: [Toronto, ON, Canada],
   description: list(
-    [Built an operational monitoring and alerting dashboard for IoT sensor data, delivering real-time system visibility and supporting incident detection workflows.],
-    [Provisioned AWS infrastructure (EC2, S3, VPC) using Terraform modules with GitHub Actions OIDC-based deployments, replacing manual setup with repeatable IaC workflows; cut environment provisioning from 2+ hours to under 10 minutes.],
+    [Designed and implemented infrastructure and CI/CD strategy to bring a startup from PoC to production-ready; migrated from AWS to GCP Cloud Run using Terraform with OIDC-based deployments and environment separation, cutting provisioning from 2+ hours to under 10 minutes.],
+    [Built CI/CD pipelines enforcing quality gates on every PR and auto-deploying validated changes on merge; hardened deployment security by isolating CI credentials, pinning the supply chain, and scoping secrets per environment.],
+    [Designed and delivered backend services for a commerce startup using Python/FastAPI with domain-driven design and PostgreSQL; implemented double-entry bookkeeping for the affiliate wallet and integrated Shopify via GraphQL for real-time product data.],
   ),
 )
 
@@ -19,9 +20,9 @@
   date: [Jun. 2020 - Jan. 2024],
   location: [Taipei, Taiwan],
   description: list(
-    [Built and maintained CI/CD pipelines in Azure DevOps; administered self-hosted GitLab CE on Linux (CentOS), ensuring runner availability and deployment reliability while reducing release preparation time by 30+ minutes.],
-    [Set up and maintained AWS production infrastructure (EC2, S3, RDS), covering provisioning, access control, and capacity planning for live workloads.],
-    [Responded to production incidents across healthcare, finance, and biotech domains; performed troubleshooting and fixes. Optimized critical database workflows from 3 minutes to 4 seconds.],
+    [Built and maintained CI/CD pipelines in Azure DevOps; administered self-hosted GitLab CE on Linux (CentOS), maintaining runner availability and deployment reliability while reducing release preparation time by 30+ minutes.],
+    [Reduced a critical reporting workflow from 3 minutes to 4 seconds by replacing application-layer transformations with optimized SQL Server stored procedures, resolving a recurring bottleneck across healthcare and finance client platforms.],
+    [Developed backend API services (ASP.NET Core) for government research and financial services clients; provisioned and operated AWS environments (EC2, S3, RDS) supporting production and test workloads.],
   ),
 )
 
@@ -31,8 +32,8 @@
   date: [Mar. 2019 - Jun. 2020],
   location: [Taipei, Taiwan],
   description: list(
-    [Maintained enterprise B2B ERP systems in production environments, ensuring system stability, data integrity, and minimal downtime for business-critical operations.],
-    [Improved database reliability through SQL Server query optimization and proactive monitoring; evaluated infrastructure modernization paths and led migration strategy assessments.],
+    [Maintained B2B and internal ERP systems (ASP.NET MVC, SQL Server), delivering 20+ monthly updates over 16 months while preserving production stability and data integrity across business-critical operations.],
+    [Resolved 8+ critical production issues annually through disciplined debugging and SQL Server query optimization; evaluated infrastructure modernization paths for legacy system upgrades.],
   ),
 )
 
@@ -42,7 +43,7 @@
   date: [Oct. 2018 - Mar. 2019],
   location: [Taipei, Taiwan],
   description: list(
-    [Completed a structured C\#/ASP.NET engineering program; supported production system maintenance and contributed to version control and deployment workflows in an enterprise environment.],
+    [Completed a structured C\#/ASP.NET engineering program; contributed to production system maintenance and version control workflows in an enterprise environment.],
   ),
 )
 

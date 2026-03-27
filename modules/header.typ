@@ -13,7 +13,7 @@
 #v(-2pt)
 #align(center)[
   #text(size: 10pt, weight: "semibold", fill: rgb("#2C3E50"))[
-    DevOps / Backend Engineer | CI/CD, Cloud, Linux
+    DevOps / Backend Engineer | CI/CD, Cloud Infrastructure, Reliability
   ]
 ]
 #v(-5pt)
