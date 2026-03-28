@@ -27,5 +27,5 @@
 
 #tech-row(
   [Development],
-  [C\#, .NET (ASP.NET Core/MVC), Python, FastAPI, SQL Server, PostgreSQL, TypeScript, Bash],
+  [C\#, .NET (ASP.NET Core/MVC), Python, FastAPI, Go, SQL Server, PostgreSQL, TypeScript, Bash],
 )
