@@ -22,7 +22,7 @@
 
 #tech-row(
   [Cloud & Infrastructure],
-  [AWS (EC2, S3, RDS), GCP (Cloud Run), Azure, Terraform, Linux (CentOS/RHEL) · AZ-900],
+  [AWS (EC2, S3, RDS), GCP, Azure, Terraform, Linux (CentOS/RHEL) · AZ-900],
 )
 
 #tech-row(
