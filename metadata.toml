@@ -10,7 +10,7 @@ language = "en"
     before_entry_description_skip = "0pt"
 
     paper_size = "us-letter"
-    font_size = "8.8pt"
+    font_size = "8.4pt"
 
     [layout.fonts]
         regular_fonts = ["Inter"]
@@ -33,7 +33,7 @@ language = "en"
 [inject]
     inject_ai_prompt = false
     inject_keywords = true
-    injected_keywords_list = ["DevOps", "CI/CD", "Azure DevOps", "GitLab CI", "GitHub Actions", "AWS", "Terraform", "Docker", "Linux", "Backend Engineer"]
+    injected_keywords_list = ["Platform Engineer", "DevOps Engineer", "Cloud Infrastructure", "CI/CD", "GitHub Actions", "Azure DevOps", "GitLab CI", "AWS", "GCP", "Terraform", "OpenTofu", "Docker", "Kubernetes", "Linux", "Python", "FastAPI", "PostgreSQL", "SQL Server", "Backend Engineer", "Reliability"]
 
 [personal]
     first_name = ""

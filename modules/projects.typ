@@ -1,45 +1,25 @@
-// Imports
-#import "@preview/brilliant-cv:3.1.2": cv-section, cv-entry
+#import "styles.typ": compact-entry, section-title
 
+#section-title("Projects & Open Source")
 
-#cv-section("Projects & Associations")
-
-#cv-entry(
-  title: [Volunteer Data Analyst],
-  society: [ABC Nonprofit Organization],
-  date: [2019 - Present],
-  location: [New York, NY],
-  description: list(
-    [Analyze donor and fundraising data to identify trends and opportunities for growth],
-    [Create data visualizations and dashboards to communicate insights to the board of directors],
-    [Collaborate with other volunteers to develop and implement data-driven strategies],
-    [Increased donation efficiency by 25% through predictive modeling],
-  ),
-  tags: ("Volunteer Work", "Non-profit", "Social Impact"),
+#compact-entry(
+  [GitOps-Managed AI Platform on GCP],
+  [Personal Project],
+  [2026],
+  [GitHub],
+  list([Modeled production-style GCP delivery with Go, Docker, Kubernetes patterns, Terraform/OpenTofu, Artifact Registry, Workload Identity Federation, and GitOps controls to reduce credential risk.]),
 )
-
-#cv-entry(
-  title: [Open Source Contributor],
-  society: [Python Data Science Libraries],
-  date: [2018 - Present],
-  location: [Remote],
-  description: list(
-    [Contributed to pandas, scikit-learn, and matplotlib projects],
-    [Fixed bugs, improved documentation, and added new features],
-    [Mentored new contributors during Google Summer of Code],
-  ),
-  tags: ("Open Source", "Python", "Community"),
+#compact-entry(
+  [content-i18n],
+  [Personal Project],
+  [May 2026],
+  [GitHub],
+  list([Built Go localization tooling that turns AI-assisted Markdown translation into repeatable work packets with glossary rules, validation, provider fallback, and MCP automation.]),
 )
-
-#cv-entry(
-  title: [Machine Learning Research Project],
-  society: [Personal Project],
-  date: [Summer 2020],
-  location: [Remote],
-  description: list(
-    [Developed a novel approach to time series forecasting using transformer architectures],
-    [Published research paper and open-sourced implementation on GitHub],
-    [Achieved 15% improvement over baseline models on benchmark datasets],
-  ),
-  tags: ("Research", "Deep Learning", "Time Series"),
+#compact-entry(
+  [Open Source Contributor],
+  [career-ops / tock],
+  [2026],
+  [GitHub],
+  list([Improved terminal report readability by shipping width-aware Markdown rendering for a Go dashboard viewer, backed by regression tests and upstream review.]),
 )

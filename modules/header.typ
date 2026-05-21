@@ -4,35 +4,30 @@
   box([#icon #h(4pt) #value])
 }
 
-#v(-34pt)
+#v(6pt)
 #align(center)[
-  #text(size: 34pt, weight: "bold", fill: rgb("#111111"))[Lou]
+  #text(size: 32pt, weight: "bold", fill: rgb("#111111"))[Lou]
   #h(5pt)
-  #text(size: 34pt, weight: "light", fill: rgb("#6B7280"))[Chang]
+  #text(size: 32pt, weight: "light", fill: rgb("#6B7280"))[Chang]
 ]
-#v(-2pt)
+#v(-4pt)
 #align(center)[
   #text(size: 10pt, weight: "semibold", fill: rgb("#2C3E50"))[
-    DevOps / Backend Engineer | CI/CD, Cloud Infrastructure, Reliability
+    Platform / DevOps Engineer | Terraform, CI/CD, Cloud Infrastructure, Production Reliability
   ]
 ]
-#v(-5pt)
+#v(-6pt)
 #align(center)[
   #text(size: 9.8pt, style: "italic", fill: rgb("#4B5563"))[
     Toronto, ON, Canada
   ]
 ]
-#v(-7pt)
+#v(-6pt)
 #set text(size: 8.9pt, fill: rgb("#2C3E50"))
 #align(center)[
   #contact-item(
-    fa-mobile-screen-button(),
-    link("tel:+16476867427")[+1-(647)-686-7427],
-  )
-  #h(5pt) | #h(5pt)
-  #contact-item(
     fa-envelope(),
-    link("mailto:louchang.tw@gmail.com")[#text("louchang.tw@gmail.com")],
+    link("mailto:louchang.dev@outlook.com")[#text("louchang.dev@outlook.com")],
   )
   #h(5pt) | #h(5pt)
   #contact-item(
@@ -50,4 +45,4 @@
     link("https://www.linkedin.com/in/lou-chang")[lou-chang],
   )
 ]
-#v(6pt)
+#v(0pt)
