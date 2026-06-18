@@ -27,8 +27,8 @@
 #import-modules((
   "header",
   "highlights",
-  "projects",
   "professional",
+  "projects",
   "education",
   "skills",
 ))

@@ -3,7 +3,7 @@
 #section-title("Experience")
 
 #compact-entry(
-  [Independent Software Engineer (Contract)],
+  [Platform / DevOps Engineer (Contract)],
   [Self-employed],
   [Sep. 2024 - Present],
   [Toronto, ON],
