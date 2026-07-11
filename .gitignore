@@ -11,3 +11,8 @@ Invoice/simple_invoice_template.fls
 Invoice/simple_invoice_template.log
 Invoice/simple_invoice_template.out
 indent.log
+
+resume-devops.pdf
+payloads/devops.json
+docs/superpowers/
+Invoice/*

@@ -1,0 +1,18 @@
+{
+  "name": {"first": "Lou", "last": "Chang"},
+  "location": "Toronto, ON, Canada",
+  "contact": {
+    "email": "louchang.dev@outlook.com",
+    "website": "https://loustack.dev",
+    "website-label": "loustack.dev",
+    "github": "https://github.com/loustack17",
+    "github-label": "loustack17",
+    "linkedin": "https://www.linkedin.com/in/lou-chang",
+    "linkedin-label": "lou-chang"
+  },
+  "education": [
+    {"school": "Seneca Polytechnic", "credential": "Diploma, Computer Programming", "date": "May 2024 - Aug. 2025", "location": "Toronto, Canada"},
+    {"school": "Hwa Hsia University of Technology", "credential": "Bachelor's, Information Management", "date": "Sep. 2018 - Jun. 2020", "location": "New Taipei City, Taiwan"},
+    {"school": "Microsoft", "credential": "AZ-900: Azure Fundamentals", "date": "Feb. 2022", "location": "Taipei, Taiwan"}
+  ]
+}

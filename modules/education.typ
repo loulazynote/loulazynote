@@ -12,7 +12,7 @@
 #education-entry(
   [Hwa Hsia University of Technology],
   [Bachelor's, Information Management],
-  [Jun. 2018 - Aug. 2020],
+  [Sep. 2018 - Jun. 2020],
   [New Taipei City, Taiwan],
 )
 

@@ -1,6 +1,6 @@
 #let section-title(title) = {
   v(2pt)
-  box(height: 12pt)[#text(size: 16.5pt, weight: "bold", fill: rgb("#2C3E50"), title)]
+  box(height: 12pt)[#text(size: 15.5pt, weight: "bold", fill: rgb("#2C3E50"), title)]
   v(-4pt)
   line(length: 100%, stroke: 0.5pt + rgb("#D7DEE8"))
   v(-2.5pt)

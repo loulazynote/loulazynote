@@ -24,5 +24,53 @@
     "tags": [
       "typst-build"
     ]
+  },
+  {
+    "label": "Typst Build (Full Stack Resume)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "typst compile cv.typ /tmp/resume_fullstack_typst.pdf --input target=fullstack --pdf-standard 1.5 --no-pdf-tags && gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dBATCH -dQUIET -dDetectDuplicateImages=true -dCompressFonts=true -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile=resume-fullstack.pdf /tmp/resume_fullstack_typst.pdf"
+    ],
+    "cwd": "$ZED_DIRNAME",
+    "tags": [
+      "typst-build"
+    ]
+  },
+  {
+    "label": "Typst Build (Backend Resume)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "typst compile cv.typ /tmp/resume_backend_typst.pdf --input target=backend --pdf-standard 1.5 --no-pdf-tags && gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dBATCH -dQUIET -dDetectDuplicateImages=true -dCompressFonts=true -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile=resume-backend.pdf /tmp/resume_backend_typst.pdf"
+    ],
+    "cwd": "$ZED_DIRNAME",
+    "tags": [
+      "typst-build"
+    ]
+  },
+  {
+    "label": "Typst Build (DevOps Resume)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "typst compile cv.typ /tmp/resume_devops_typst.pdf --input target=devops --pdf-standard 1.5 --no-pdf-tags && gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dBATCH -dQUIET -dDetectDuplicateImages=true -dCompressFonts=true -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile=resume-devops.pdf /tmp/resume_devops_typst.pdf"
+    ],
+    "cwd": "$ZED_DIRNAME",
+    "tags": [
+      "typst-build"
+    ]
+  },
+  {
+    "label": "Typst Build (Production Reliability Resume)",
+    "command": "bash",
+    "args": [
+      "-lc",
+      "typst compile cv.typ /tmp/resume_sre_typst.pdf --input target=sre --pdf-standard 1.5 --no-pdf-tags && gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.5 -dNOPAUSE -dBATCH -dQUIET -dDetectDuplicateImages=true -dCompressFonts=true -dSubsetFonts=true -dEmbedAllFonts=true -sOutputFile=resume-sre.pdf /tmp/resume_sre_typst.pdf"
+    ],
+    "cwd": "$ZED_DIRNAME",
+    "tags": [
+      "typst-build"
+    ]
   }
 ]
