@@ -4,7 +4,7 @@ Platform / DevOps Engineer with backend depth, focused on CI/CD, cloud infrastru
 
 I started on the application side — .NET APIs, SQL optimization, and keeping brownfield systems stable across healthcare, finance, and biotech. These days I work closer to how software ships and stays running: Terraform, CI/CD pipelines, cloud infrastructure, deployment safety, and production readiness.
 
-Based in Toronto. Interested in Platform Engineer, DevOps Engineer, Cloud Infrastructure Engineer, and SRE-leaning roles.
+Based in Toronto. Interested in Platform Engineer, DevOps Engineer, Cloud Infrastructure Engineer, and backend-heavy software roles.
 
 ## 🛠️ Where I live now
 

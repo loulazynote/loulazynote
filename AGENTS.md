@@ -1,6 +1,6 @@
 # Resume Repo Guide
 
-This repo is for refining Lou Chang's one-page resume for North American backend, DevOps, and SRE roles.
+This repo is for refining Lou Chang's one-page resume variants for North American backend, backend-first full-stack, and DevOps/platform roles.
 
 Hard constraints:
 - Keep the primary resume to one page.
@@ -8,7 +8,7 @@ Hard constraints:
 - Optimize for human readability and role fit, not ATS stuffing.
 
 Positioning:
-- Default to DevOps/SRE-leaning positioning with credible backend depth.
+- Maintain distinct backend, backend-first full-stack, and DevOps/platform positioning with credible backend depth.
 - Emphasize CI/CD, cloud infrastructure, production operations, reliability, migrations, performance, and safe delivery.
 - Preserve backend credibility, but do not frame Lou as a generic feature or CRUD engineer.
 - If a bullet can be framed at feature or system scope, choose the highest scope that is factually defensible.

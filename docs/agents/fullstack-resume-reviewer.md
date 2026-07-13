@@ -10,7 +10,7 @@ Use these sources in priority order:
 
 1. `/home/lou/Documents/Personal_Notes/02_Areas/Career/**/*.md`
 2. `/home/lou/Documents/Job/career-ops/article-digest.md` for positioning and source pointers
-3. `payloads/fullstack.json` as the candidate resume
+3. `payloads/fullstack.yaml` as the candidate resume
 4. `resume-fullstack.pdf` for rendered layout
 
 Treat Career brag documents as the factual authority. Do not import claims from previous review prose unless the brag documents independently support them.

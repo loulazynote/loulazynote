@@ -1,54 +1,43 @@
-#:schema https://raw.githubusercontent.com/yunanwg/brilliant-CV/main/metadata.toml.schema.json
-
 language = "en"
+default_target = "fullstack"
+targets = ["backend", "fullstack", "devops"]
 
-[layout]
-    awesome_color = "#2C3E50"
+[render]
+paper_size = "us-letter"
+font = "Helvetica Neue"
+font_size = 8.6
+payload_directory = "payloads"
 
-    before_section_skip = "0pt"
-    before_entry_skip = "0pt"
-    before_entry_description_skip = "0pt"
+[shared]
+location = "Toronto, ON, Canada"
 
-    paper_size = "us-letter"
-    font_size = "8.4pt"
+[shared.name]
+first = "Lou"
+last = "Chang"
 
-    [layout.fonts]
-        regular_fonts = ["Inter"]
-        header_font = "Roboto"
+[shared.contact]
+email = "louchang.dev@outlook.com"
+website = "https://loustack.dev"
+website-label = "loustack.dev"
+github = "https://github.com/loustack17"
+github-label = "loustack17"
+linkedin = "https://www.linkedin.com/in/lou-chang"
+linkedin-label = "lou-chang"
 
-    [layout.header]
-        header_align = "center"
-        display_profile_photo = false
-        profile_photo_radius = "50%"
-        info_font_size = "0.1pt"
+[[shared.education]]
+school = "Seneca Polytechnic"
+credential = "Diploma, Computer Programming"
+date = "May 2024 - Aug. 2025"
+location = "Toronto, Canada"
 
-    [layout.entry]
-        display_entry_society_first = true
-        display_logo = false
+[[shared.education]]
+school = "Hwa Hsia University of Technology"
+credential = "Bachelor's, Information Management"
+date = "Sep. 2018 - Jun. 2020"
+location = "New Taipei City, Taiwan"
 
-    [layout.footer]
-        display_page_counter = false
-        display_footer = false
-
-[inject]
-    inject_ai_prompt = false
-    inject_keywords = true
-    injected_keywords_list = ["Platform Engineer", "DevOps Engineer", "Cloud Infrastructure", "CI/CD", "GitHub Actions", "Azure DevOps", "GitLab CI", "AWS", "GCP", "Terraform", "OpenTofu", "Docker", "Kubernetes", "Linux", "Python", "FastAPI", "PostgreSQL", "SQL Server", "Backend Engineer", "Reliability"]
-
-[personal]
-    first_name = ""
-    last_name = ""
-
-    [personal.info]
-
-[lang.en]
-    cv_footer = "Curriculum vitae"
-    letter_footer = "Cover letter"
-
-[lang.zh]
-    cv_footer = "履歷"
-    letter_footer = "求職信"
-
-[lang.non_latin]
-    name = ""
-    font = "Heiti SC"
+[[shared.education]]
+school = "Microsoft"
+credential = "AZ-900: Azure Fundamentals"
+date = "Feb. 2022"
+location = "Taipei, Taiwan"
